@@ -82,4 +82,30 @@ public class Exercises {
             scanner.close();
         }
     }
+
+    public static class testMethods {
+
+        public static int sum(int a, int b) {
+            return a + b;
+        }
+
+        public static boolean isEven(int number) {
+            return number % 2 == 0;
+        }
+
+        public static int product(int c, int d) {
+            return c * d;
+        }
+
+        public static String toUpperCase(String text) {
+            return text.toUpperCase();
+        }
+
+        public static boolean isPositive(int number) {
+            return number > 0;
+        }
+
+    }
+
+
 }
