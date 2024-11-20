@@ -68,14 +68,14 @@ public class Exercises {
 
         // Step 1: Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your text: "); // Prompt the user
+        System.out.print("Enter your text: ");  // Prompt user
 
         // Step 2: Read the entire line of input
-        String input = scanner.nextLine();
+        String inputText = scanner.nextLine(); // We collect next line of user input as String (use mextInt() for a number)
 
         // Step 3: Split the input into characters and print each one
         System.out.println("Individual letters: ");
-        for (char letter : input.toCharArray()) { // Convert input string to char array
+        for (char letter : inputText.toCharArray()) { // Convert input string to char array
             System.out.println(letter); // Print each character
 
             // Close the scanner (avoids resource leaks)
