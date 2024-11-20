@@ -1,7 +1,7 @@
 package com.bootcamp.module04;
 
-import com.bootcamp.module01.Exercises;
-import com.bootcamp.module01.Lecture;
+import com.bootcamp.module05.Exercises;
+import com.bootcamp.module05.Lecture;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
 
         // Running exercises
         System.out.println("\nRunning Exercises:");
-        com.bootcamp.module01.Exercises.solveExercise1();
-        Exercises.solveExercise2();
+        com.bootcamp.module05.Exercises.solveExercises();
+
     }
 }
